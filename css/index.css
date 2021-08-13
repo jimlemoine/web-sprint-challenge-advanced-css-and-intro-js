@@ -134,3 +134,44 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/*Adding Media Query for responsive design*/
+@media(max-width:500px) {
+
+h1 {
+    font-size: 4rem;
+}
+
+/*HEADER STYLES */
+header nav {
+    width: 40%;
+}
+header nav a {
+    font-size: 1.6 rem;
+}
+/*Title Container Responsive Styles*/
+.title-container div {
+    width: 100%;
+    background-size: cover;
+}
+/*Artists Section Responsive Styles*/
+.artists-container{
+    width:100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.artist {
+    width: 60%;
+}
+.artist a{
+    font-size: 2rem;
+}
+.artist img {
+    height: 20%;
+}
+.bio {
+    font-size: 1.2rem;
+}
+
+} /*Closing brace for 500px media query*/
