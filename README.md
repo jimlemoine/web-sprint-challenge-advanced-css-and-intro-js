@@ -23,11 +23,15 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-Answer 1 - 
+Answer 1 - Accessibility is essentially the usage of various programming tools and techniques in order to make webpages easier to interpret and use for differently-abled people, people who may not have access to fast internet connections or desktop sized devices, and screen readers. It is critical because a meaningful number of people take advantage of accessibility every day.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+Answer 2 - 1. we must use semantic HTML, essentially using the most semantic element tags whenever possible and saving divs for visual layout only. This way people using screen readers or only keyboards can navigate the page. 2. Resize images so their filesize is in the low hundreds of kilobytes so that the page loads faster, always use descriptive alt tags to help people using screen readers to understand what the picture was. 3. Thirdly, think about typography when designing for accessibility. We need to use the appropriate heading tags for the overall title of the page and various sub-sections so that screen readers can more easily navigate to sections of the page that are interesting to them. We also need to use scalable units such as rem for our font sizes so that text can be enlarged and used at various screen sizes.
 3. How would you explain the concept of a variable to someone new to programming?
+Answer 3 - A variable is a named container for a value so that you can use that value throughout your program and even update the value over time if it has a value that changes.
 4. What is the purpose of using functions in code?
+Answer 4 - Functions allow us to perform a task or set of tasks without having to write all of the code of the tasks every time you need it.
 5. How do you access a key inside of an object inside of an array?
+Answer 5 - arrayname[index of the object]['key name']
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
